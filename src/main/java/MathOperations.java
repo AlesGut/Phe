@@ -6,7 +6,7 @@ public class MathOperations {
         int subtract1 = subtract(20, 15);//Ввод переменных Вычитание
         int multiply1 = multiply(-106, -17); //Ввод переменных Умножение
         double divide1 = divide(-5, 2); //Ввод переменных Деление
-        int max = findMax((int) -10.3123,(int)100.2332 );// 2. Ввод переменной нахождение наибольшего числа
+        int max = findMax((int) -10.3123, (int) 100.2332);// 2. Ввод переменной нахождение наибольшего числа
         int difference1 = difference(-10, -80); //3. Ввод переменных Модуль разницы
         int side = squareArea(9999);// 4. Ввод переменной Методы для площади  квадрата
         int length = squarePerimeter(-477);// 4. Ввод переменной Методы для периметра квадрата
@@ -19,10 +19,9 @@ public class MathOperations {
         double cel = fahrenheitToCelsius(1000);//10. Ввод переменной перевод в Цельсий
 
 
-
         System.out.println("1.возвращает сумму двух чисел " + sum); // Вывод Суммы
         System.out.println("1.возвращает разницу двух чисел " + subtract1); // Вывод Вычитания
-        System.out.println("1.возвращает произведение двух чисел " +multiply1); // Вывод Умножения
+        System.out.println("1.возвращает произведение двух чисел " + multiply1); // Вывод Умножения
         System.out.println("1.возвращает деление двух чисел " + divide1); // Вывод Деление
         System.out.println(" 2.Максимум " + max); //2. Вывод Нахождение максимума
         System.out.println(" 3.Модуль разницы " + difference1); //3. Вывод Модуль разницы
@@ -65,15 +64,15 @@ public class MathOperations {
     }
 
     public static int squareArea(int x) {// 4. Метод Методы для площади  квадрата
-        int a;
-        return a = x * x;
+
+        return x * x;
     }
 
     public static int squarePerimeter(int side) {// 4. Метод Методы для периметра квадрата
         return Math.abs(side * 4); // Модуль + вычисление периметра
     }
 
-    public static float convertSecondsToMinutes(int x) { //5. Метод для перевода секунд в минуты
+    public static double convertSecondsToMinutes(double x) { //5. Метод для перевода секунд в минуты
         return Math.abs(x / 60);
     }
 
@@ -97,11 +96,11 @@ public class MathOperations {
     }
 
     public static double calculatePercentage(double total, double part) {// 9. Метод для вычисления процентов
-        if (part == 0) {   //Обработка исключения деления на 0
+        if (total == 0) {   //Обработка исключения деления на 0
             return 9999999;
         } else {
 
-            return (total / part) * 100;
+            return (part / total) * 100;
         }
     }
 
