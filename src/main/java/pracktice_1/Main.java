@@ -1,6 +1,8 @@
+package pracktice_1;
+
 public class Main {// объявили класс
 
-    public static void main(String[] args) { //сигнатура метрода Main, обхявление метода Main
+    public static void main(String[] args) { //сигнатура метрода pracktice_1.Main, обхявление метода pracktice_1.Main
         // объявление переменной
         int count;
         // первое присваивание значения = инициализация переменной

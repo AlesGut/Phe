@@ -1,3 +1,5 @@
+package pracktice_1;
+
 public class MathOperations {
 
 

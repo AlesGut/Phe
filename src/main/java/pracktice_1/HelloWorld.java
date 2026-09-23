@@ -1,3 +1,5 @@
+package pracktice_1;
+
 public class HelloWorld {
     //Поля
     static int a = 1;

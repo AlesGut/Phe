@@ -1,3 +1,5 @@
+package pracktice_1;
+
 public class UserInfo {// определение класса
     private static final String DEFALT_NAME = "unknown";
     private String name; // объявление поля класса с типом данных String и именем. name
