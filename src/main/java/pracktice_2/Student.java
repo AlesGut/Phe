@@ -30,7 +30,8 @@ public class Student {
     void setName(String newName) {
         this.name = newName;
     }
-    void print(){
+
+    void print() {
         System.out.println("Возраст " + this.age + ", имя " + this.name);
     }
 }
