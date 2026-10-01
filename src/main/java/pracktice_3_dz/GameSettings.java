@@ -2,11 +2,11 @@ package pracktice_3_dz;
 
 public class GameSettings {
     static int maxPlayers = 20000; // общее ограничение игроков
-    final String gameName; // название (нельзя менять)
+    final String GEME_NAME; // название (нельзя менять)
     int currentPlayers; // сколько игроков в игре сейчас
 
     GameSettings(String someGameName, int someCurrentPlayers) { //конструктор для класса GameSettings
-        this.gameName = someGameName;
+        this.GEME_NAME = someGameName;
         this.currentPlayers = someCurrentPlayers;
     }
 
@@ -19,6 +19,6 @@ public class GameSettings {
     }
 
     void printGameStatus() { // метод для вывода данных
-        System.out.println("Название " + this.gameName + ", Текущее значение игроков " + this.currentPlayers + ", Максимальное число игроков " + maxPlayers);
+        System.out.println("Название " + this.GEME_NAME + ", Текущее значение игроков " + this.currentPlayers + ", Максимальное число игроков " + maxPlayers);
     }
 }

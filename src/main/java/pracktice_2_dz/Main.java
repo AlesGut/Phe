@@ -12,7 +12,7 @@ public class Main {
         //System.out.println(rectangle1.getWidth());
         rectangle1.setWidth(13);
         rectangle1.сalculateArea();
-        System.out.println("Ширина " + rectangle1.getHeight() + " Высота " + rectangle1.getWidth());
+        System.out.println("Высота " + rectangle1.getHeight() + " Ширина " + rectangle1.getWidth());
         //System.out.println("Конец 2го задания");
 
         Book book1 = new Book("Rieng", "Kolva");//задание 3 Объект  Книга

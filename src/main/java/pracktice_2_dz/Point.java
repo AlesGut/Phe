@@ -9,7 +9,7 @@ public class Point {
         this.y = somY;
     }
 
-    int getPoint() {
+    int getX() {
         return this.x;
     }
 
@@ -23,7 +23,7 @@ public class Point {
     }
 
     void print() {
-        System.out.println("Значение x= " + getPoint() + ", Значение y= " + getY());
+        System.out.println("Значение x= " + getX() + ", Значение y= " + getY());
     }
 }
 

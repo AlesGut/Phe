@@ -19,7 +19,7 @@ public class Laptop {
     }
 
     void setBrand(String newBrand) {
-        this.brand = brand;
+        this.brand = newBrand;
     }
 
     void setPrice(double newPrice) {

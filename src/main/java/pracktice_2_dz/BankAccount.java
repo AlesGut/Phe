@@ -17,8 +17,8 @@ public class BankAccount {
         return this.balance;
     }
 
-    void setOwner(int newOwner) { //сеттер для владельца
-        this.balance = newOwner;
+    void setOwner(String newOwner) { //сеттер для владельца
+        this.owner = newOwner;
     }
 
     void printBalance() {        //Вывод баланса

@@ -2,11 +2,11 @@ package pracktice_3_dz;
 
 public class University {
     static String universityName = "BMSTU"; // общее имя университета
-    final int studentID; // уникальный ID
+    final int STUDENT_ID; // уникальный ID
     String studentName; //имя студента
 
     University(int someStudentID, String someStudetName) {  //Конструктор класса University
-        this.studentID = someStudentID;
+        this.STUDENT_ID = someStudentID;
         this.studentName = someStudetName;
     }
 
@@ -19,6 +19,6 @@ public class University {
     }
 
     void printStudentInfo() {
-        System.out.println("ID студента " + this.studentID + ", Имя студента " + this.studentName + ", Название университета " + universityName);
+        System.out.println("ID студента " + this.STUDENT_ID + ", Имя студента " + this.studentName + ", Название университета " + universityName);
     }
 }

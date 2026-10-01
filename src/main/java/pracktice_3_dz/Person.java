@@ -3,12 +3,12 @@ package pracktice_3_dz;
 public class Person {
     private String firstName;
     private String lastName;
-    private final String ssn; // номер социального страхования
+    private final String SSN; // номер социального страхования
 
-    Person(String someLastName, String someFirstName, String someSsn) {// конструктор класса Person
+    Person(String someLastName, String someFirstName, String someSSN) {// конструктор класса Person
         this.firstName = someFirstName;
         this.lastName = someLastName;
-        this.ssn = someSsn;
+        this.SSN = someSSN;
     }
 
     String getFirstName() { //геттер  для переменной  firstName
@@ -20,7 +20,7 @@ public class Person {
     }
 
     String getSsn() { //геттер для переменной  ssn
-        return ssn;
+        return SSN;
     }
 
     void setFirstName(String newFirstName) { // сеттер firstName
@@ -32,6 +32,6 @@ public class Person {
     }
 
     void printPersonInfo() {
-        System.out.println("Имя " + this.lastName + ", Фамилия " + this.firstName + ", SSN " + this.ssn);
+        System.out.println("Имя " + this.lastName + ", Фамилия " + this.firstName + ", SSN " + this.SSN);
     }
 }

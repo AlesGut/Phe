@@ -9,7 +9,6 @@ public class Car {
         this.brand = someBrend;
     }
 
-    ;
 
     void setBrand(String newBrend) { // сеттер Brend
         this.brand = newBrend;
