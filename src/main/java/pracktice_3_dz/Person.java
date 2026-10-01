@@ -11,7 +11,7 @@ public class Person {
         this.SSN = someSSN;
     }
 
-    String getFirstName() { //геттер  для переменной  firstName
+    String getFirstName() { //геттер  для переменной firstName
         return firstName;
     }
 
@@ -19,7 +19,7 @@ public class Person {
         return lastName;
     }
 
-    String getSsn() { //геттер для переменной  ssn
+    String getSSN() { //геттер для переменной  ssn
         return SSN;
     }
 
@@ -32,6 +32,6 @@ public class Person {
     }
 
     void printPersonInfo() {
-        System.out.println("Имя " + this.lastName + ", Фамилия " + this.firstName + ", SSN " + this.SSN);
+        System.out.println("Имя " + getLastName() + ", Фамилия " + getLastName() + ", SSN " + getSSN());
     }
 }

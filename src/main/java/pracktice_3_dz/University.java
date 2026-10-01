@@ -19,6 +19,6 @@ public class University {
     }
 
     void printStudentInfo() {
-        System.out.println("ID студента " + this.STUDENT_ID + ", Имя студента " + this.studentName + ", Название университета " + universityName);
+        System.out.println("ID студента " + this.STUDENT_ID + ", Имя студента " + getStudentName() + ", Название университета " + universityName);
     }
 }

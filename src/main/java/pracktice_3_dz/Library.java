@@ -19,16 +19,16 @@ public class Library {
         return bookTitle;
     }
 
-    void setAuthor(String someAuthor) {  //сеттер поля author
-        this.author = someAuthor;
+    void setAuthor(String newAuthor) {  //сеттер поля author
+        this.author = newAuthor;
     }
 
-    void setBookTitle(String someBookTitle) { //сеттер поля bookTitle
-        this.bookTitle = someBookTitle;
+    void setBookTitle(String newBookTitle) { //сеттер поля bookTitle
+        this.bookTitle = newBookTitle;
     }
 
-    void setYear(int someYear) { //сеттер поля year
-        this.year = someYear;
+    void setYear(int newYear) { //сеттер поля year
+        this.year = newYear;
     }
 }
 
