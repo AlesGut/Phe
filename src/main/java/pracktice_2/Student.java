@@ -1,8 +1,8 @@
 package pracktice_2;
 
 public class Student {
-    int age = 12;
-    String name = "Петяzz";
+    protected int age = 12;
+    protected String name = "Петяzz";
 
     // Конструктор
     Student(int someAge, String someName) {

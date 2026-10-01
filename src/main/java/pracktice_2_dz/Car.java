@@ -1,4 +1,4 @@
-package pracktice_3_dz;
+package pracktice_2_dz;
 
 public class Car {
     String brand;
