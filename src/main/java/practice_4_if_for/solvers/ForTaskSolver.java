@@ -1,4 +1,4 @@
-package solvers;
+package practice_4_if_for.solvers;
 
 public class ForTaskSolver {
     public static void main(String[] args) {

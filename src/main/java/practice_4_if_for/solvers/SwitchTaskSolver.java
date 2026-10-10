@@ -1,4 +1,4 @@
-package solvers;
+package practice_4_if_for.solvers;
 
 import practice_4_if_for.Season;
 

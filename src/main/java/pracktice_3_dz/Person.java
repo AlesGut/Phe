@@ -11,15 +11,15 @@ public class Person {
         this.SSN = someSSN;
     }
 
-    String getFirstName() { //геттер  для переменной firstName
+    String getFirstName() { //геттер для переменной firstName
         return firstName;
     }
 
-    String getLastName() { //геттер  для переменной   lastName
+    String getLastName() { //геттер для переменной lastName
         return lastName;
     }
 
-    String getSSN() { //геттер для переменной  ssn
+    String getSSN() { //геттер для переменной ssn
         return SSN;
     }
 
