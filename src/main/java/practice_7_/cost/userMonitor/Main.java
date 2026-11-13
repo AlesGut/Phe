@@ -1,0 +1,13 @@
+package practice_7_.cost.userMonitor;
+
+public class Main {
+    public static void main(String[] args) {
+        UserMonitor userMonitor = new UserMonitor();
+        userMonitor.addNewSession("177");
+        userMonitor.addNewSession("177");
+        userMonitor.addNewSession("134");
+        userMonitor.addNewSession("134");
+        userMonitor.addNewSession("177");
+        userMonitor.printSessions();
+    }
+}
